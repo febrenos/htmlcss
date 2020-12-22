@@ -1,0 +1,17 @@
+h1{
+    color: #ff1600;
+    letter-spacing: -1px; /*espaco entre as letras*/
+    text-transform: capitalize; /*the firt letter is uppercase,lowcase*/ 
+    width: 650px;
+    text-shadow: 1px 1px 1px black;/*sombra: Vertical, horizontal/ desfoque*/
+    font-family: 'Turret Road', cursive;/*Google Fontes*/
+}
+/*google.com/fontes*/
+/*colocar link no html*/
+.p1{
+    /* text-indent: 50px; paragrafo */
+    width: 650px;/*larger max*/
+    text-align: justify;/*justify align in left and right align text in rigth, left, center...*/
+    font-size: 18px; /*tamanho letra*/
+    font-family: verdana, Arial, Helvetica, sans-serif;/*ve se essa fonte tem no pc, se nao tiver vai carregar uma outrapadrao ou dps da virgula*/
+}

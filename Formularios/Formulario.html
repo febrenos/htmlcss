@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    </head>
+    <body>
+        <!-- if give action null the information ll go tho this page // post,get-->
+        <form action="" methhod="get"> 
+            <!-- for and id need are same -->
+            <label for="nome">Name:</label>
+            <!-- place holder inside box -->
+            <input id="nome" type="text" placeholder="digite seu nome">
+            <label for="opcao">Radio:</label>
+            <!-- radio only 2 and, checked is ready check -->
+            <input type="radio" name="opcao" value="sim" checked="checked"/>Sim
+            <input type="radio" name="opcao" value="nao"/>Não
+            <label for="checkbox">Checkbox:</label>
+            <!-- checkbox can select more than 2 options -->
+            <input type="checkbox" name="html" />Html
+            <input type="checkbox" name="css" />Css
+            <input type="checkbox" name="java" />Java
+            <textarea name="msg"></textarea>
+            <input type="submit" name="css" value="Enviar"/>
+        </form>
+    </body>
+</html>

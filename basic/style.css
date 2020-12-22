@@ -1,0 +1,75 @@
+a{
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+a:link, a:visited{
+    color: #ff6600;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: blue;
+}
+
+#segundo{   /*Peferente ao id*/
+    color: orange;
+}
+
+.link{ /*Referente for classe body p a.link= all internal body p <a> link ll be afected*/
+    color: red;
+}
+
+#wrap{ /*reference for id*/
+    width: 960px;
+    margin: auto;
+    background: #e3e3e3;
+    padding:10px 20px;/* top,down  rigth,left or 10px, 10px, 10px, 10px top, rigth, down, left*/
+    overflow: hidden;/*ajust the flow, if pass div will be ocult, be div englobation*/
+}
+
+header nav ul{
+    list-style: none; /*tirar as bolinhas na frente*/
+    padding-left: 0;/*alinhar com linha do menu*/
+}
+
+header nav ul li{
+    display: inline-block; /*stay a cross from*/
+}
+
+header nav ul li a{
+    font-size: 18px;
+}
+
+#content{
+    float: left; /*flutuar in left*/
+    width: 660px; /*dividir the space with other div*/
+    background: red;
+}
+
+#sidebar{
+    float: right; /*flutuar in rigth*/
+    width: 300px;
+    background: blue;
+}
+
+#sidebar ul{
+    list-style: none;
+}
+
+
+footer{
+    clear: both;
+}
+/*Id=cant repeat
+class= can repeat
+*/

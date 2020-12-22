@@ -1,0 +1,17 @@
+/* stay in organization in blocks */
+label, input[type=submit], input[type=text], textarea{
+    display: block;
+}
+
+textarea{
+    width: 300px;
+    height: 80px;
+}
+/* cursor is change when pass */
+input[type=submit]{
+    background: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px; /*rigth-left / top-down  */
+    border: 0;
+}

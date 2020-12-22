@@ -1,0 +1,10 @@
+.titulo{
+    font-size: 0.8rem;
+    color: #fff;
+    background-color: #fff;
+    border: 2px solid #eee;
+    margin: 0 1rem;
+    font-weight: 40;
+    background-color: #DF2F2F;
+    border-radius: .8rem .8rem 0 0;
+}

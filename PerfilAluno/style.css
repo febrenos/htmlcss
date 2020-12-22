@@ -1,0 +1,76 @@
+body{
+    background-color: #EEEEEE;
+}
+.all{
+    width: 80%;
+    margin: auto;
+}
+
+/* .tamanho{
+    display: flex;
+    align-items: center;
+} */
+
+/* Descricao Usuario */
+.box2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.box2 .sobreusuario{
+    width: 70%;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 1%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    /* text-align: center; */
+    box-shadow: 0px 4px 10px #0000002a;
+}
+
+.box2 .sobreusuario p{
+    margin-top: 50px;
+    font-size: 20px;
+    color: #C92B2B;
+}
+#container img {float:left}
+
+.box2 .sobreusuario img {float:right;}
+
+.box2 .sobreusuario img{
+    width: 20px;
+    width:15px;
+    margin-right: 32%;
+    margin-top: 8px;
+    display: flex;
+    display: inline-block;
+    vertical-align: middle;
+}
+.box2 .sobreusuario h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.box2 .sobreusuario h3{
+    font-size: 16px;
+}
+.box2 .sobreusuario h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.box2 .sobreusuario p, h2, h3, h4{
+    margin-left: 30px;
+}
+.box2 .sobreusuario .color-line{
+    display: flex;
+    height: 2px;
+    width: 280px;
+    background-color: #6d6d6d;
+    margin-bottom: 40px;
+    width: 70%;
+    height: 1px;
+    top: 50%;
+    margin-left: 30px;
+    box-shadow:  #6d6d6d;
+    /* transform: translateY(-50%); */
+}

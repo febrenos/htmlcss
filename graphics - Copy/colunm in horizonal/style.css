@@ -1,0 +1,77 @@
+* {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.titulo{
+  font-size: 0.6rem;
+  color: #fff;
+  border: none; 
+  padding: 2px;
+  font-weight: 40px;
+  background-color: #DF2F2F;
+  border-radius: .8rem .8rem 0 0;
+  /* width: 70%;  */
+}
+
+.box{
+  float: left;
+  display: flex;
+  /* width: 70%; */
+  /* border: 20px 0 solid green; */
+}
+
+.info{
+  /* float: right;
+  width: 40%; */
+  background: #EEEEEE;
+  color: #DF2F2F;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.5rem 8rem;
+  /* background-color: #fff;
+  border: 2px solid #eee;
+  padding: 2rem 8rem;
+  text-align: center;
+  flex-direction: column;
+  display: flex; */
+}
+.info h2{
+  font-weight: 30;
+}
+
+.base_graf_Em_Busca {
+  width: 80%; /*tamanho lateral do grafico*/
+  /* background-color: aliceblue; */
+  height: 250px; /*altura do grafico, proporcional a 10 itens*/
+}
+
+.Busca_valor {
+  width: 85%;
+  background-color: transparent;
+  height: 40px; /*20 altura igual a da classe Busca_nome*/
+  float: right;
+}
+.Busca_nome {
+  width: 15%;
+  background-color: white;
+  height: 40px; /*20 se alterar altura, alterar também altura da tabela*/
+  float: left;
+}
+.Busca_nome_centralizado {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  display: block;
+}
+.insert_busca_width {
+  background-color: #6C72C8;
+  height: 25px;/*14*/
+  color: white;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+}
