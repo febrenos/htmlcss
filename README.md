@@ -10,4 +10,4 @@ Live Sass Compiler
 Live Server
 
 # instal Ruby
-https://sass-lang.com/install                                                                                                                                                        npm install sass                                                                                                                                                                    sass --version                                                                                                                                                                      sass -- help
+npm install sass                                                                                                                                                                  . sass --version                                                                                                                                                                   . sass -- help
