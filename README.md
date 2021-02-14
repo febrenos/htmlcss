@@ -2,7 +2,7 @@
 this is functionalities about front-end, and alot thigs you can do with Js, css, sass...
 
 # css
-Using @keyframes, position, others more advanced
+Animation | Darkmode | Graphics | Neon
 
 # Javascript
 For executable aplications, like menu, alerts and determine standards
