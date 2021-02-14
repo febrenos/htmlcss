@@ -26,8 +26,7 @@
                 align-items: baseline;
                 /* width: 950px; */
                 /*max-height: 500px; */
-                /* margin: 0 80px; */
-                width: 800px; 
+                /* margin: 0 80px; */ 
                 
             }
             .box h3{
@@ -85,19 +84,45 @@
             .cab{
                 position: relative;
             }
+            @media (max-width: 422px){
+                imagem{
+                    width: 100px;
+                    margin-left: 10px;
+                }
+            }
             @media (max-width: 767px){
                 .descricao{
+                    transition: 1s;
                     display: none;
                 }
                 .box{
+                    transition: 1s;
                     flex-direction: column;
                 }
+                .box h1{
+                    transition: 1s;
+                    margin-top: 60px;
+                }
+                .box h3{
+                    transition: 1s;
+                    padding-left: 0;
+                    margin-top: 10px;
+                }
+            }
+            @media (max-width: 1018px){
+                .descricao{
+                    transition: 1s;
+                    padding: 0 250px;
+                }
+                    
             }
             @media (max-width: 1125px){
                 .descricao{
+                    transition: 1s;
                     padding: 0 100px;
                     margin-left: 40px;
                 }
+                
             }
 
         </style>
@@ -115,8 +140,7 @@
                     </div>
                     <div class="imagem">
                         <img src="./img/download (1).png" alt="">
-                        <img src="" alt="">
-                        <img src="" alt="">
+
                     </div>
             </div>
                 
